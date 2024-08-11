@@ -1,0 +1,589 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Thu Apr 25 23:45:01 2024
+# Process ID: 13284
+# Current directory: C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16836 C:\Users\R.W.Tharun Sandeepa\Downloads\NanoProcessor-CodeX\NanoProcessor\NanoProcessor\NanoProcessor.xpr
+# Log file: C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/vivado.log
+# Journal file: C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor\vivado.jou
+#-----------------------------------------------------------sstart_guiopen_project {C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor'
+INFO: [Project 1-313] Project file moved from 'D:/NanoProcessor Update/NanoProcessor Update/NanoProcessor/NanoProcessor' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Vivado/2018.1/data/ip'.
+open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:16 . Memory (MB): peak = 817.590 ; gain = 63.391
+update_compile_order -fileset sources_1
+exexport_ip_user_files -of_objects  [get_files {{C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/adder_3_bit.vhd}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/adder_3_bit.vhd}}
+close [ open {C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/adder_4_bit.vhd} w ]
+add_files {{C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/adder_4_bit.vhd}}
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files {{C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/MUX_2_to_1_3_bit.vhd}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/MUX_2_to_1_3_bit.vhd}}
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_Microprocessor' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TB_Microprocessor_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/Adder_Subtractor_4bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Adder_Subtractor_4bit
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/D_FF.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity D_FF
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/Decoder_2_to_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Decoder_2_to_4
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/Decoder_3_to_8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Decoder_3_to_8
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/FA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FA
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/HA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity HA
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/Instruction_Decoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Instruction_Decoder
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/LUT_16_7.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LUT_16_7
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/MUX_2_to_1_4_bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX_2_to_1_4bit
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/MUX_8_to_1_4_bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX_8_to_1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/NanoProcessor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity NanoProcessor
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/Program_Counter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Program_Counter
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/ROM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ROM
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/Reg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Reg
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/Register_Bank.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Register_Bank
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/Slow_clk.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Slow_clk
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/adder_4_bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity adder_4_bit
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sim_1/new/TB_Microprocessor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TB_Microprocessor
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: E:/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto 077b93c6ecce45ecbfaafd4afad2a3ae --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_Microprocessor_behav xil_defaultlib.TB_Microprocessor -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-664] expression has 3 elements ; expected 4 [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/NanoProcessor.vhd:115]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit tb_microprocessor in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 868.770 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_Microprocessor' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TB_Microprocessor_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/NanoProcessor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity NanoProcessor
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: E:/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto 077b93c6ecce45ecbfaafd4afad2a3ae --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_Microprocessor_behav xil_defaultlib.TB_Microprocessor -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-664] expression has 4 elements ; expected 3 [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/NanoProcessor.vhd:115]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit tb_microprocessor in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_Microprocessor' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TB_Microprocessor_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/Instruction_Decoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Instruction_Decoder
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: E:/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto 077b93c6ecce45ecbfaafd4afad2a3ae --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_Microprocessor_behav xil_defaultlib.TB_Microprocessor -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-664] expression has 3 elements ; expected 4 [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/Instruction_Decoder.vhd:81]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit tb_microprocessor in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_Microprocessor' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TB_Microprocessor_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/Instruction_Decoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Instruction_Decoder
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: E:/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto 077b93c6ecce45ecbfaafd4afad2a3ae --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_Microprocessor_behav xil_defaultlib.TB_Microprocessor -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.Decoder_2_to_4 [decoder_2_to_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decoder_3_to_8 [decoder_3_to_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg [reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.Register_Bank [register_bank_default]
+Compiling architecture behavioral of entity xil_defaultlib.HA [ha_default]
+Compiling architecture behavioral of entity xil_defaultlib.FA [fa_default]
+Compiling architecture behavioral of entity xil_defaultlib.Adder_Subtractor_4bit [adder_subtractor_4bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.D_FF [d_ff_default]
+Compiling architecture behavioral of entity xil_defaultlib.Program_Counter [program_counter_default]
+Compiling architecture behavioral of entity xil_defaultlib.adder_4_bit [adder_4_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_8_to_1 [mux_8_to_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Instruction_Decoder [instruction_decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_to_1_4bit [mux_2_to_1_4bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.ROM [rom_default]
+Compiling architecture behavioral of entity xil_defaultlib.LUT_16_7 [lut_16_7_default]
+Compiling architecture behavioral of entity xil_defaultlib.Slow_clk [slow_clk_default]
+Compiling architecture behavioral of entity xil_defaultlib.NanoProcessor [nanoprocessor_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_microprocessor
+Built simulation snapshot TB_Microprocessor_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 883.316 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TB_Microprocessor_behav -key {Behavioral:sim_1:Functional:TB_Microprocessor} -tclbatch {TB_Microprocessor.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.1
+Time resolution is 1 ps
+source TB_Microprocessor.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_Microprocessor_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:11 . Memory (MB): peak = 911.465 ; gain = 28.148
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_Microprocessor' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TB_Microprocessor_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/ROM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ROM
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: E:/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto 077b93c6ecce45ecbfaafd4afad2a3ae --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_Microprocessor_behav xil_defaultlib.TB_Microprocessor -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.Decoder_2_to_4 [decoder_2_to_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decoder_3_to_8 [decoder_3_to_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg [reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.Register_Bank [register_bank_default]
+Compiling architecture behavioral of entity xil_defaultlib.HA [ha_default]
+Compiling architecture behavioral of entity xil_defaultlib.FA [fa_default]
+Compiling architecture behavioral of entity xil_defaultlib.Adder_Subtractor_4bit [adder_subtractor_4bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.D_FF [d_ff_default]
+Compiling architecture behavioral of entity xil_defaultlib.Program_Counter [program_counter_default]
+Compiling architecture behavioral of entity xil_defaultlib.adder_4_bit [adder_4_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_8_to_1 [mux_8_to_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Instruction_Decoder [instruction_decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_to_1_4bit [mux_2_to_1_4bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.ROM [rom_default]
+Compiling architecture behavioral of entity xil_defaultlib.LUT_16_7 [lut_16_7_default]
+Compiling architecture behavioral of entity xil_defaultlib.Slow_clk [slow_clk_default]
+Compiling architecture behavioral of entity xil_defaultlib.NanoProcessor [nanoprocessor_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_microprocessor
+Built simulation snapshot TB_Microprocessor_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TB_Microprocessor_behav -key {Behavioral:sim_1:Functional:TB_Microprocessor} -tclbatch {TB_Microprocessor.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.1
+Time resolution is 1 ps
+source TB_Microprocessor.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_Microprocessor_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: NanoProcessor
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 1006.102 ; gain = 94.637
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'NanoProcessor' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/NanoProcessor.vhd:44]
+INFO: [Synth 8-3491] module 'Register_Bank' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/Register_Bank.vhd:34' bound to instance 'RegisterBank' of component 'Register_Bank' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/NanoProcessor.vhd:145]
+INFO: [Synth 8-638] synthesizing module 'Register_Bank' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/Register_Bank.vhd:49]
+INFO: [Synth 8-3491] module 'Decoder_3_to_8' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/Decoder_3_to_8.vhd:34' bound to instance 'Decoder_3_to_8_0' of component 'Decoder_3_to_8' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/Register_Bank.vhd:68]
+INFO: [Synth 8-638] synthesizing module 'Decoder_3_to_8' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/Decoder_3_to_8.vhd:40]
+INFO: [Synth 8-3491] module 'Decoder_2_to_4' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/Decoder_2_to_4.vhd:34' bound to instance 'Decoder_2_to_4_0' of component 'Decoder_2_to_4' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/Decoder_3_to_8.vhd:52]
+INFO: [Synth 8-638] synthesizing module 'Decoder_2_to_4' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/Decoder_2_to_4.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'Decoder_2_to_4' (1#1) [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/Decoder_2_to_4.vhd:40]
+INFO: [Synth 8-3491] module 'Decoder_2_to_4' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/Decoder_2_to_4.vhd:34' bound to instance 'Decoder_2_to_4_1' of component 'Decoder_2_to_4' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/Decoder_3_to_8.vhd:58]
+INFO: [Synth 8-256] done synthesizing module 'Decoder_3_to_8' (2#1) [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/Decoder_3_to_8.vhd:40]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/Reg.vhd:34' bound to instance 'Reg_0' of component 'Reg' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/Register_Bank.vhd:74]
+INFO: [Synth 8-638] synthesizing module 'Reg' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/Reg.vhd:42]
+WARNING: [Synth 8-614] signal 'reset' is read in the process but is not in the sensitivity list [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/Reg.vhd:45]
+INFO: [Synth 8-256] done synthesizing module 'Reg' (3#1) [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/Reg.vhd:42]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/Reg.vhd:34' bound to instance 'Reg_1' of component 'Reg' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/Register_Bank.vhd:81]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/Reg.vhd:34' bound to instance 'Reg_2' of component 'Reg' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/Register_Bank.vhd:88]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/Reg.vhd:34' bound to instance 'Reg_3' of component 'Reg' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/Register_Bank.vhd:95]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/Reg.vhd:34' bound to instance 'Reg_4' of component 'Reg' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/Register_Bank.vhd:102]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/Reg.vhd:34' bound to instance 'Reg_5' of component 'Reg' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/Register_Bank.vhd:109]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/Reg.vhd:34' bound to instance 'Reg_6' of component 'Reg' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/Register_Bank.vhd:116]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/Reg.vhd:34' bound to instance 'Reg_7' of component 'Reg' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/Register_Bank.vhd:123]
+INFO: [Synth 8-256] done synthesizing module 'Register_Bank' (4#1) [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/Register_Bank.vhd:49]
+INFO: [Synth 8-3491] module 'Adder_Subtractor_4bit' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/Adder_Subtractor_4bit.vhd:14' bound to instance 'AdderSubtractor' of component 'Adder_Subtractor_4bit' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/NanoProcessor.vhd:160]
+INFO: [Synth 8-638] synthesizing module 'Adder_Subtractor_4bit' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/Adder_Subtractor_4bit.vhd:25]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/FA.vhd:34' bound to instance 'FA_0' of component 'FA' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/Adder_Subtractor_4bit.vhd:40]
+INFO: [Synth 8-638] synthesizing module 'FA' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/FA.vhd:42]
+INFO: [Synth 8-3491] module 'HA' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/HA.vhd:34' bound to instance 'HA_0' of component 'HA' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/FA.vhd:53]
+INFO: [Synth 8-638] synthesizing module 'HA' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/HA.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'HA' (5#1) [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/HA.vhd:41]
+INFO: [Synth 8-3491] module 'HA' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/HA.vhd:34' bound to instance 'HA_1' of component 'HA' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/FA.vhd:59]
+INFO: [Synth 8-256] done synthesizing module 'FA' (6#1) [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/FA.vhd:42]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/FA.vhd:34' bound to instance 'FA_1' of component 'FA' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/Adder_Subtractor_4bit.vhd:48]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/FA.vhd:34' bound to instance 'FA_2' of component 'FA' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/Adder_Subtractor_4bit.vhd:56]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/FA.vhd:34' bound to instance 'FA_3' of component 'FA' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/Adder_Subtractor_4bit.vhd:64]
+INFO: [Synth 8-256] done synthesizing module 'Adder_Subtractor_4bit' (7#1) [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/Adder_Subtractor_4bit.vhd:25]
+INFO: [Synth 8-3491] module 'Program_Counter' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/Program_Counter.vhd:34' bound to instance 'ProgramCounter' of component 'Program_Counter' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/NanoProcessor.vhd:171]
+INFO: [Synth 8-638] synthesizing module 'Program_Counter' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/Program_Counter.vhd:41]
+INFO: [Synth 8-3491] module 'D_FF' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/D_FF.vhd:7' bound to instance 'D_FF0' of component 'D_FF' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/Program_Counter.vhd:53]
+INFO: [Synth 8-638] synthesizing module 'D_FF' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/D_FF.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'D_FF' (8#1) [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/D_FF.vhd:15]
+INFO: [Synth 8-3491] module 'D_FF' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/D_FF.vhd:7' bound to instance 'D_FF1' of component 'D_FF' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/Program_Counter.vhd:60]
+INFO: [Synth 8-3491] module 'D_FF' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/D_FF.vhd:7' bound to instance 'D_FF2' of component 'D_FF' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/Program_Counter.vhd:67]
+INFO: [Synth 8-3491] module 'D_FF' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/D_FF.vhd:7' bound to instance 'D_FF3' of component 'D_FF' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/Program_Counter.vhd:74]
+INFO: [Synth 8-256] done synthesizing module 'Program_Counter' (9#1) [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/Program_Counter.vhd:41]
+INFO: [Synth 8-3491] module 'adder_4_bit' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/adder_4_bit.vhd:25' bound to instance 'Bit4_Adder' of component 'adder_4_bit' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/NanoProcessor.vhd:179]
+INFO: [Synth 8-638] synthesizing module 'adder_4_bit' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/adder_4_bit.vhd:30]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/FA.vhd:34' bound to instance 'FA_0' of component 'FA' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/adder_4_bit.vhd:46]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/FA.vhd:34' bound to instance 'FA_1' of component 'FA' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/adder_4_bit.vhd:54]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/FA.vhd:34' bound to instance 'FA_2' of component 'FA' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/adder_4_bit.vhd:62]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/FA.vhd:34' bound to instance 'FA_3' of component 'FA' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/adder_4_bit.vhd:70]
+INFO: [Synth 8-256] done synthesizing module 'adder_4_bit' (10#1) [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/adder_4_bit.vhd:30]
+INFO: [Synth 8-3491] module 'MUX_8_to_1' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/MUX_8_to_1_4_bit.vhd:31' bound to instance 'MUX_8_to_1_one' of component 'MUX_8_to_1' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/NanoProcessor.vhd:184]
+INFO: [Synth 8-638] synthesizing module 'MUX_8_to_1' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/MUX_8_to_1_4_bit.vhd:45]
+INFO: [Synth 8-3491] module 'Decoder_3_to_8' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/Decoder_3_to_8.vhd:34' bound to instance 'Decoder_3_to_8_0' of component 'Decoder_3_to_8' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/MUX_8_to_1_4_bit.vhd:56]
+INFO: [Synth 8-256] done synthesizing module 'MUX_8_to_1' (11#1) [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/MUX_8_to_1_4_bit.vhd:45]
+INFO: [Synth 8-3491] module 'MUX_8_to_1' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/MUX_8_to_1_4_bit.vhd:31' bound to instance 'MUX_8_to_1_two' of component 'MUX_8_to_1' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/NanoProcessor.vhd:197]
+INFO: [Synth 8-3491] module 'Instruction_Decoder' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/Instruction_Decoder.vhd:29' bound to instance 'InstructionDecoder' of component 'Instruction_Decoder' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/NanoProcessor.vhd:210]
+INFO: [Synth 8-638] synthesizing module 'Instruction_Decoder' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/Instruction_Decoder.vhd:44]
+INFO: [Synth 8-226] default block is never used [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/Instruction_Decoder.vhd:53]
+INFO: [Synth 8-256] done synthesizing module 'Instruction_Decoder' (12#1) [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/Instruction_Decoder.vhd:44]
+INFO: [Synth 8-3491] module 'MUX_2_to_1_4bit' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/MUX_2_to_1_4_bit.vhd:31' bound to instance 'MUX_4bit_counter' of component 'MUX_2_to_1_4bit' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/NanoProcessor.vhd:225]
+INFO: [Synth 8-638] synthesizing module 'MUX_2_to_1_4bit' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/MUX_2_to_1_4_bit.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'MUX_2_to_1_4bit' (13#1) [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/MUX_2_to_1_4_bit.vhd:39]
+INFO: [Synth 8-3491] module 'MUX_2_to_1_4bit' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/MUX_2_to_1_4_bit.vhd:31' bound to instance 'MUX_4bit' of component 'MUX_2_to_1_4bit' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/NanoProcessor.vhd:233]
+INFO: [Synth 8-3491] module 'ROM' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/ROM.vhd:35' bound to instance 'RO_M' of component 'ROM' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/NanoProcessor.vhd:241]
+INFO: [Synth 8-638] synthesizing module 'ROM' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/ROM.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'ROM' (14#1) [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/ROM.vhd:40]
+INFO: [Synth 8-3491] module 'LUT_16_7' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/LUT_16_7.vhd:35' bound to instance 'LUT' of component 'LUT_16_7' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/NanoProcessor.vhd:247]
+INFO: [Synth 8-638] synthesizing module 'LUT_16_7' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/LUT_16_7.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'LUT_16_7' (15#1) [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/LUT_16_7.vhd:40]
+INFO: [Synth 8-3491] module 'Slow_clk' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/Slow_clk.vhd:34' bound to instance 'SlowClk' of component 'Slow_clk' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/NanoProcessor.vhd:252]
+INFO: [Synth 8-638] synthesizing module 'Slow_clk' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/Slow_clk.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'Slow_clk' (16#1) [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/Slow_clk.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'NanoProcessor' (17#1) [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/NanoProcessor.vhd:44]
+WARNING: [Synth 8-3917] design NanoProcessor has port Anode[3] driven by constant 1
+WARNING: [Synth 8-3917] design NanoProcessor has port Anode[2] driven by constant 1
+WARNING: [Synth 8-3917] design NanoProcessor has port Anode[1] driven by constant 1
+WARNING: [Synth 8-3917] design NanoProcessor has port Anode[0] driven by constant 0
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 1048.590 ; gain = 137.125
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 1048.590 ; gain = 137.125
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 1048.590 ; gain = 137.125
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-141] Inserted 4 OBUFs to IO ports without IO buffers.
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/Basys.xdc]
+Finished Parsing XDC File [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/Basys.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:16 ; elapsed = 00:00:26 . Memory (MB): peak = 1386.789 ; gain = 475.324
+78 Infos, 5 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:26 . Memory (MB): peak = 1386.789 ; gain = 475.324
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_Microprocessor' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TB_Microprocessor_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/NanoProcessor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity NanoProcessor
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: E:/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto 077b93c6ecce45ecbfaafd4afad2a3ae --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_Microprocessor_behav xil_defaultlib.TB_Microprocessor -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.Decoder_2_to_4 [decoder_2_to_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decoder_3_to_8 [decoder_3_to_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg [reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.Register_Bank [register_bank_default]
+Compiling architecture behavioral of entity xil_defaultlib.HA [ha_default]
+Compiling architecture behavioral of entity xil_defaultlib.FA [fa_default]
+Compiling architecture behavioral of entity xil_defaultlib.Adder_Subtractor_4bit [adder_subtractor_4bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.D_FF [d_ff_default]
+Compiling architecture behavioral of entity xil_defaultlib.Program_Counter [program_counter_default]
+Compiling architecture behavioral of entity xil_defaultlib.adder_4_bit [adder_4_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_8_to_1 [mux_8_to_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Instruction_Decoder [instruction_decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_to_1_4bit [mux_2_to_1_4bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.ROM [rom_default]
+Compiling architecture behavioral of entity xil_defaultlib.LUT_16_7 [lut_16_7_default]
+Compiling architecture behavioral of entity xil_defaultlib.Slow_clk [slow_clk_default]
+Compiling architecture behavioral of entity xil_defaultlib.NanoProcessor [nanoprocessor_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_microprocessor
+Built simulation snapshot TB_Microprocessor_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TB_Microprocessor_behav -key {Behavioral:sim_1:Functional:TB_Microprocessor} -tclbatch {TB_Microprocessor.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.1
+Time resolution is 1 ps
+source TB_Microprocessor.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_Microprocessor_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1392.789 ; gain = 0.000
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1397.094 ; gain = 4.305
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'NanoProcessor' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/NanoProcessor.vhd:44]
+INFO: [Synth 8-3491] module 'Register_Bank' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/Register_Bank.vhd:34' bound to instance 'RegisterBank' of component 'Register_Bank' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/NanoProcessor.vhd:145]
+INFO: [Synth 8-638] synthesizing module 'Register_Bank' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/Register_Bank.vhd:49]
+INFO: [Synth 8-3491] module 'Decoder_3_to_8' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/Decoder_3_to_8.vhd:34' bound to instance 'Decoder_3_to_8_0' of component 'Decoder_3_to_8' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/Register_Bank.vhd:68]
+INFO: [Synth 8-638] synthesizing module 'Decoder_3_to_8' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/Decoder_3_to_8.vhd:40]
+INFO: [Synth 8-3491] module 'Decoder_2_to_4' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/Decoder_2_to_4.vhd:34' bound to instance 'Decoder_2_to_4_0' of component 'Decoder_2_to_4' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/Decoder_3_to_8.vhd:52]
+INFO: [Synth 8-638] synthesizing module 'Decoder_2_to_4' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/Decoder_2_to_4.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'Decoder_2_to_4' (1#1) [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/Decoder_2_to_4.vhd:40]
+INFO: [Synth 8-3491] module 'Decoder_2_to_4' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/Decoder_2_to_4.vhd:34' bound to instance 'Decoder_2_to_4_1' of component 'Decoder_2_to_4' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/Decoder_3_to_8.vhd:58]
+INFO: [Synth 8-256] done synthesizing module 'Decoder_3_to_8' (2#1) [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/Decoder_3_to_8.vhd:40]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/Reg.vhd:34' bound to instance 'Reg_0' of component 'Reg' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/Register_Bank.vhd:74]
+INFO: [Synth 8-638] synthesizing module 'Reg' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/Reg.vhd:42]
+WARNING: [Synth 8-614] signal 'reset' is read in the process but is not in the sensitivity list [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/Reg.vhd:45]
+INFO: [Synth 8-256] done synthesizing module 'Reg' (3#1) [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/Reg.vhd:42]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/Reg.vhd:34' bound to instance 'Reg_1' of component 'Reg' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/Register_Bank.vhd:81]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/Reg.vhd:34' bound to instance 'Reg_2' of component 'Reg' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/Register_Bank.vhd:88]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/Reg.vhd:34' bound to instance 'Reg_3' of component 'Reg' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/Register_Bank.vhd:95]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/Reg.vhd:34' bound to instance 'Reg_4' of component 'Reg' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/Register_Bank.vhd:102]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/Reg.vhd:34' bound to instance 'Reg_5' of component 'Reg' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/Register_Bank.vhd:109]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/Reg.vhd:34' bound to instance 'Reg_6' of component 'Reg' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/Register_Bank.vhd:116]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/Reg.vhd:34' bound to instance 'Reg_7' of component 'Reg' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/Register_Bank.vhd:123]
+INFO: [Synth 8-256] done synthesizing module 'Register_Bank' (4#1) [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/Register_Bank.vhd:49]
+INFO: [Synth 8-3491] module 'Adder_Subtractor_4bit' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/Adder_Subtractor_4bit.vhd:14' bound to instance 'AdderSubtractor' of component 'Adder_Subtractor_4bit' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/NanoProcessor.vhd:160]
+INFO: [Synth 8-638] synthesizing module 'Adder_Subtractor_4bit' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/Adder_Subtractor_4bit.vhd:25]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/FA.vhd:34' bound to instance 'FA_0' of component 'FA' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/Adder_Subtractor_4bit.vhd:40]
+INFO: [Synth 8-638] synthesizing module 'FA' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/FA.vhd:42]
+INFO: [Synth 8-3491] module 'HA' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/HA.vhd:34' bound to instance 'HA_0' of component 'HA' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/FA.vhd:53]
+INFO: [Synth 8-638] synthesizing module 'HA' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/HA.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'HA' (5#1) [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/HA.vhd:41]
+INFO: [Synth 8-3491] module 'HA' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/HA.vhd:34' bound to instance 'HA_1' of component 'HA' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/FA.vhd:59]
+INFO: [Synth 8-256] done synthesizing module 'FA' (6#1) [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/FA.vhd:42]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/FA.vhd:34' bound to instance 'FA_1' of component 'FA' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/Adder_Subtractor_4bit.vhd:48]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/FA.vhd:34' bound to instance 'FA_2' of component 'FA' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/Adder_Subtractor_4bit.vhd:56]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/FA.vhd:34' bound to instance 'FA_3' of component 'FA' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/Adder_Subtractor_4bit.vhd:64]
+INFO: [Synth 8-256] done synthesizing module 'Adder_Subtractor_4bit' (7#1) [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/Adder_Subtractor_4bit.vhd:25]
+INFO: [Synth 8-3491] module 'Program_Counter' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/Program_Counter.vhd:34' bound to instance 'ProgramCounter' of component 'Program_Counter' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/NanoProcessor.vhd:171]
+INFO: [Synth 8-638] synthesizing module 'Program_Counter' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/Program_Counter.vhd:41]
+INFO: [Synth 8-3491] module 'D_FF' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/D_FF.vhd:7' bound to instance 'D_FF0' of component 'D_FF' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/Program_Counter.vhd:53]
+INFO: [Synth 8-638] synthesizing module 'D_FF' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/D_FF.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'D_FF' (8#1) [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/D_FF.vhd:15]
+INFO: [Synth 8-3491] module 'D_FF' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/D_FF.vhd:7' bound to instance 'D_FF1' of component 'D_FF' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/Program_Counter.vhd:60]
+INFO: [Synth 8-3491] module 'D_FF' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/D_FF.vhd:7' bound to instance 'D_FF2' of component 'D_FF' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/Program_Counter.vhd:67]
+INFO: [Synth 8-3491] module 'D_FF' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/D_FF.vhd:7' bound to instance 'D_FF3' of component 'D_FF' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/Program_Counter.vhd:74]
+INFO: [Synth 8-256] done synthesizing module 'Program_Counter' (9#1) [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/Program_Counter.vhd:41]
+INFO: [Synth 8-3491] module 'adder_4_bit' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/adder_4_bit.vhd:25' bound to instance 'Bit4_Adder' of component 'adder_4_bit' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/NanoProcessor.vhd:179]
+INFO: [Synth 8-638] synthesizing module 'adder_4_bit' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/adder_4_bit.vhd:30]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/FA.vhd:34' bound to instance 'FA_0' of component 'FA' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/adder_4_bit.vhd:46]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/FA.vhd:34' bound to instance 'FA_1' of component 'FA' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/adder_4_bit.vhd:54]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/FA.vhd:34' bound to instance 'FA_2' of component 'FA' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/adder_4_bit.vhd:62]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/FA.vhd:34' bound to instance 'FA_3' of component 'FA' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/adder_4_bit.vhd:70]
+INFO: [Synth 8-256] done synthesizing module 'adder_4_bit' (10#1) [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/adder_4_bit.vhd:30]
+INFO: [Synth 8-3491] module 'MUX_8_to_1' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/MUX_8_to_1_4_bit.vhd:31' bound to instance 'MUX_8_to_1_one' of component 'MUX_8_to_1' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/NanoProcessor.vhd:184]
+INFO: [Synth 8-638] synthesizing module 'MUX_8_to_1' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/MUX_8_to_1_4_bit.vhd:45]
+INFO: [Synth 8-3491] module 'Decoder_3_to_8' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/Decoder_3_to_8.vhd:34' bound to instance 'Decoder_3_to_8_0' of component 'Decoder_3_to_8' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/MUX_8_to_1_4_bit.vhd:56]
+INFO: [Synth 8-256] done synthesizing module 'MUX_8_to_1' (11#1) [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/MUX_8_to_1_4_bit.vhd:45]
+INFO: [Synth 8-3491] module 'MUX_8_to_1' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/MUX_8_to_1_4_bit.vhd:31' bound to instance 'MUX_8_to_1_two' of component 'MUX_8_to_1' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/NanoProcessor.vhd:197]
+INFO: [Synth 8-3491] module 'Instruction_Decoder' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/Instruction_Decoder.vhd:29' bound to instance 'InstructionDecoder' of component 'Instruction_Decoder' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/NanoProcessor.vhd:210]
+INFO: [Synth 8-638] synthesizing module 'Instruction_Decoder' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/Instruction_Decoder.vhd:44]
+INFO: [Synth 8-226] default block is never used [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/Instruction_Decoder.vhd:53]
+INFO: [Synth 8-256] done synthesizing module 'Instruction_Decoder' (12#1) [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/Instruction_Decoder.vhd:44]
+INFO: [Synth 8-3491] module 'MUX_2_to_1_4bit' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/MUX_2_to_1_4_bit.vhd:31' bound to instance 'MUX_4bit_counter' of component 'MUX_2_to_1_4bit' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/NanoProcessor.vhd:225]
+INFO: [Synth 8-638] synthesizing module 'MUX_2_to_1_4bit' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/MUX_2_to_1_4_bit.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'MUX_2_to_1_4bit' (13#1) [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/MUX_2_to_1_4_bit.vhd:39]
+INFO: [Synth 8-3491] module 'MUX_2_to_1_4bit' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/MUX_2_to_1_4_bit.vhd:31' bound to instance 'MUX_4bit' of component 'MUX_2_to_1_4bit' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/NanoProcessor.vhd:233]
+INFO: [Synth 8-3491] module 'ROM' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/ROM.vhd:35' bound to instance 'RO_M' of component 'ROM' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/NanoProcessor.vhd:241]
+INFO: [Synth 8-638] synthesizing module 'ROM' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/ROM.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'ROM' (14#1) [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/ROM.vhd:40]
+INFO: [Synth 8-3491] module 'LUT_16_7' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/LUT_16_7.vhd:35' bound to instance 'LUT' of component 'LUT_16_7' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/NanoProcessor.vhd:247]
+INFO: [Synth 8-638] synthesizing module 'LUT_16_7' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/LUT_16_7.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'LUT_16_7' (15#1) [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/LUT_16_7.vhd:40]
+INFO: [Synth 8-3491] module 'Slow_clk' declared at 'C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/Slow_clk.vhd:34' bound to instance 'SlowClk' of component 'Slow_clk' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/NanoProcessor.vhd:252]
+INFO: [Synth 8-638] synthesizing module 'Slow_clk' [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/Slow_clk.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'Slow_clk' (16#1) [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/Import/Slow_clk.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'NanoProcessor' (17#1) [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/NanoProcessor.srcs/sources_1/new/NanoProcessor.vhd:44]
+WARNING: [Synth 8-3917] design NanoProcessor has port Anode[3] driven by constant 1
+WARNING: [Synth 8-3917] design NanoProcessor has port Anode[2] driven by constant 1
+WARNING: [Synth 8-3917] design NanoProcessor has port Anode[1] driven by constant 1
+WARNING: [Synth 8-3917] design NanoProcessor has port Anode[0] driven by constant 0
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1440.793 ; gain = 48.004
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1440.793 ; gain = 48.004
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1440.793 ; gain = 48.004
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-141] Inserted 4 OBUFs to IO ports without IO buffers.
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/Basys.xdc]
+Finished Parsing XDC File [C:/Users/R.W.Tharun Sandeepa/Downloads/NanoProcessor-CodeX/NanoProcessor/NanoProcessor/Basys.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:12 . Memory (MB): peak = 1461.383 ; gain = 68.594
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 26 01:16:28 2024...

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="TB_Microprocessor_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="TB_Microprocessor" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1000000001fs"></ZoomEndTime>
+      <Cursor1Time time="329004000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="126"></NameColumnWidth>
+      <ValueColumnWidth column_width="159"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="/TB_Microprocessor/Clk" type="logic">
+      <obj_property name="ElementShortName">Clk</obj_property>
+      <obj_property name="ObjectShortName">Clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_Microprocessor/UUT/SlowClk/Clk_out" type="logic">
+      <obj_property name="ElementShortName">Clk_out</obj_property>
+      <obj_property name="ObjectShortName">Clk_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_Microprocessor/Reset" type="logic">
+      <obj_property name="ElementShortName">Reset</obj_property>
+      <obj_property name="ObjectShortName">Reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_Microprocessor/Zero" type="logic">
+      <obj_property name="ElementShortName">Zero</obj_property>
+      <obj_property name="ObjectShortName">Zero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_Microprocessor/Overflow" type="logic">
+      <obj_property name="ElementShortName">Overflow</obj_property>
+      <obj_property name="ObjectShortName">Overflow</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_Microprocessor/Reg7_Seg" type="array">
+      <obj_property name="ElementShortName">Reg7_Seg[6:0]</obj_property>
+      <obj_property name="ObjectShortName">Reg7_Seg[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_Microprocessor/Reg_7_Out" type="array">
+      <obj_property name="ElementShortName">Reg_7_Out[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Reg_7_Out[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_Microprocessor/UUT/RegisterBank/S_out_0" type="array">
+      <obj_property name="ElementShortName">S_out_0[3:0]</obj_property>
+      <obj_property name="ObjectShortName">S_out_0[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_Microprocessor/UUT/RegisterBank/S_out_1" type="array">
+      <obj_property name="ElementShortName">S_out_1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">S_out_1[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_Microprocessor/UUT/RegisterBank/S_out_2" type="array">
+      <obj_property name="ElementShortName">S_out_2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">S_out_2[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_Microprocessor/UUT/RegisterBank/S_out_3" type="array">
+      <obj_property name="ElementShortName">S_out_3[3:0]</obj_property>
+      <obj_property name="ObjectShortName">S_out_3[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_Microprocessor/UUT/RegisterBank/S_out_7" type="array">
+      <obj_property name="ElementShortName">S_out_7[3:0]</obj_property>
+      <obj_property name="ObjectShortName">S_out_7[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_Microprocessor/UUT/AdderSubtractor/S" type="array">
+      <obj_property name="ElementShortName">S[3:0]</obj_property>
+      <obj_property name="ObjectShortName">S[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_Microprocessor/UUT/RegisterBank/S_out_7" type="array">
+      <obj_property name="ElementShortName">S_out_7[3:0]</obj_property>
+      <obj_property name="ObjectShortName">S_out_7[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_Microprocessor/Memory_Select_test" type="array">
+      <obj_property name="ElementShortName">Memory_Select_test[2:0]</obj_property>
+      <obj_property name="ObjectShortName">Memory_Select_test[2:0]</obj_property>
+   </wvobject>
+</wave_config>

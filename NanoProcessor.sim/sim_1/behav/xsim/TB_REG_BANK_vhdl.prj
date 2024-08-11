@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../NanoProcessor.srcs/sources_1/Import/Decoder_2_to_4.vhd" \
+"../../../../NanoProcessor.srcs/sources_1/Import/Decoder_3_to_8.vhd" \
+"../../../../NanoProcessor.srcs/sources_1/Import/Reg.vhd" \
+"../../../../NanoProcessor.srcs/sources_1/new/Register_Bank.vhd" \
+"../../../../NanoProcessor.srcs/sim_1/new/TB_REG_BANK.vhd" \
+
+# Do not sort compile order
+nosort
